@@ -22,10 +22,11 @@ a {
 
 .button {
   background-color: #3882f6;
-  padding: 8px 16px;
+  padding: 12px 24px;
   border: none;
-  border-radius: 5px;
+  border-radius: 8px;
   color: #f9faf8;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -37,6 +38,19 @@ a {
 .hero-section .secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.primary-heading {
+  font-size: 60px;
+  color: #f9faf8;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.secondary-heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
 
 /* HEADER */
@@ -67,7 +81,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 32px;
+  gap: 48px;
 }
 
 .hero-section .content {
@@ -75,10 +89,6 @@ a {
 }
 
 .hero-section .primary-heading {
-  font-size: 60px;
-  color: #f9faf8;
-  font-weight: bold;
-  line-height: 1;
   margin-bottom: 8px;
 }
 
@@ -88,4 +98,38 @@ a {
 
 .hero-section .image {
   flex: 0.75;
+}
+
+/* INFO SECTION */
+
+.info-section {
+  padding: 48px 0 96px 0;
+}
+
+.info-section .secondary-heading {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.info-cards-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.info-card .icon {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882f6;
+  border-radius: 16px;
+  justify-self: center;
+  margin-bottom: 8px;
+}
+
+.info-card .text {
+  text-align: center;
+  width: 200px;
+  color: #1f2937;
 }
