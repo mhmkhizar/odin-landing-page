@@ -19,3 +19,73 @@ li {
 a {
   text-decoration: none;
 }
+
+.button {
+  background-color: #3882f6;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+.dark-background {
+  background-color: #1f2937;
+}
+
+.header .links a,
+.hero-section .secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  padding: 16px 0;
+  margin: 0 auto;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header .links {
+  display: flex;
+  gap: 16px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 96px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero-section .content {
+  flex: 1;
+}
+
+.hero-section .primary-heading {
+  font-size: 60px;
+  color: #f9faf8;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.hero-section .secondary-text {
+  margin-bottom: 16px;
+}
+
+.hero-section .image {
+  flex: 0.75;
+}
