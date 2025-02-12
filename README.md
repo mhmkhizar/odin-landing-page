@@ -1,6 +1,6 @@
 # odin-landing-page
 
-This is a landing page for Odin Project. It is a simple landing page with a navigation bar, a header, a main section, and a footer. The main section contains a form with a text input and a submit button. The form is not functional, but it is styled with CSS. The page is responsive and adapts to different screen sizes using media queries.
+This is a landing page for Odin Project. It is a simple landing page with a header, a hero section, an info section, a quote/testimonial section, a call-to-action section and a footer.T he page isn't responsive (yet) and doesn't adapt to different screen sizes.
 
 ## Built With
 
