@@ -190,3 +190,15 @@ a {
 .cta-container .text {
   color: #f9faf8;
 }
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #1f2937;
+  padding: 48px 0;
+}
+
+.footer .text {
+  color: #f9faf8;
+  text-align: center;
+}
