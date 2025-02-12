@@ -133,3 +133,30 @@ a {
   width: 200px;
   color: #1f2937;
 }
+
+/* QUOTE SECTION */
+
+.quote-section {
+  padding: 96px 0;
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 192px;
+}
+
+.quote-container .quote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.quote-container .author {
+  font-weight: 500;
+  text-align: right;
+}
