@@ -201,3 +201,8 @@ a {
   color: #f9faf8;
   text-align: center;
 }
+
+.footer a {
+  color: #f9faf8;
+  text-decoration: underline;
+}
