@@ -15,7 +15,7 @@ This is a landing page project created as part of The Odin Project curriculum. T
 
 ## Demo
 
-You can view a live demo of the project [here](#).
+You can view a live demo of the project [here](https://mhmkhizar.github.io/odin-landing-page).
 
 ## Features
 
